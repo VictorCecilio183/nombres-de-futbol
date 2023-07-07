@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Lista de equipos de futbol</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h3>Lista de equipos de futbol</h3>
+            <div id="rows">
+                <span>
+                    <input type="text" placeholder="Ingrsar nombre" id="name1">
+                </span>
+                <span>
+                    <button onclick="submit()" id="submit_boton">Enviar</button>
+                </span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <hr>
+                <div id="display_name"></div>
+                <hr>
+                <div id="show1">
+                    <h3 id="hd1">Lista de equipos de futbol</h3>
+                    <button onclick="show()" id="show">Mostrar</button>
+                    <p id="p1"></p>
+                 
+                </div>
+                <hr>
+                <button onclick="sorting()" id="sort_button">Lista ordenada</button>
+                <div id="sorted"></div>
+
+
+            </div>
+            <hr>
+            <input type="text" placeholder="Buscar nombre" id="s1">
+            <button onclick="searching()" id="srch">Buscar</button>
+            <p id="p2"></p>
+        </center>
+    </body>
+</html>

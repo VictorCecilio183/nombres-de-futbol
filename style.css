@@ -1,0 +1,30 @@
+body
+{
+    background-image: url("leon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(67, 214, 59);
+}
+
+h3{
+    color: black;
+    font-size: 50px;
+}
+input{
+    width: 30%;
+    height: 40px;
+    font-size: 30px;
+    color: black;
+}
+button{
+    width: 10%;
+    height: 35px;
+    background-color: rgb(42, 209, 42);
+    color: white;
+    font-size: 15px;
+    border-color: blue;
+}
+#display_name,#p1,#sorted,#p2{
+    font-size: 35px;
+    color: black;
+}
